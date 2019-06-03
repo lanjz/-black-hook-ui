@@ -1,0 +1,19 @@
+{
+  "name": "black-hook-ui",
+  "version": "1.0.0",
+  "description": "black-hoook-ui",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lanjz/black-hook-ui.git"
+  },
+  "author": "lanjz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lanjz/black-hook-ui/issues"
+  },
+  "homepage": "https://github.com/lanjz/black-hook-ui#readme"
+}
