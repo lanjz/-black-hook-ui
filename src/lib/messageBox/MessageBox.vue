@@ -36,7 +36,7 @@
   }
 </script>
 
-<style scoped lang="less">
+<style scoped>
   .hello-message-box-bg{
     position: fixed;
     width: 100%;
@@ -90,11 +90,9 @@
     border-right: solid 1px #c7c7c7;
   }
 </style>
-<style lang="less">
-  .hello-message-box-bg{
-    img{
-      max-width: 200px;
-      max-height: 500px;
-    }
+<style>
+  .hello-message-box-bg img{
+    max-width: 200px;
+    max-height: 500px;
   }
 </style>
