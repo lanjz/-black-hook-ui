@@ -8,7 +8,9 @@ module.exports = {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
     filename: 'black-hook-ui.min.js',
-    library: 'blackHookUI'
+    library: 'blackHookUI',
+    libraryTarget: 'umd',
+    umdNamedDefine: true
   },
   module: {
     rules: [

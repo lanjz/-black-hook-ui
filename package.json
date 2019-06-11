@@ -4,7 +4,6 @@
   "version": "1.0.0",
   "author": "lanjz <lanjz@mingyuanyun.com>",
   "license": "MIT",
-  "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
@@ -12,8 +11,8 @@
   "dependencies": {
     "vue": "^2.5.11"
   },
-  "main": "/dist/black-hook-ui.min.js",
-  "main2": "/src/lib/index.js",
+  "main": "./dist/black-hook-ui.min.js",
+  "main2": "./src/lib/index.js",
   "browserslist": [
     "> 1%",
     "last 2 versions",
@@ -39,5 +38,9 @@
     "vue-template-compiler": "^2.4.4",
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lanjz/black-hook-ui.git"
   }
 }

@@ -14,6 +14,7 @@ if(typeof window !== 'undefined' && window.Vue) {
   window.Vue.use()
 }
 
+
 export default {
-  install
+  install,
 }
