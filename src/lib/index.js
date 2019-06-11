@@ -13,10 +13,7 @@ const install = function (Vue, args = {}) {
 if(typeof window !== 'undefined' && window.Vue) {
   window.Vue.use()
 }
-const abc = {
-  test: 'test22222'
-}
+
 export default {
-  install,
-  abc
+  install
 }
